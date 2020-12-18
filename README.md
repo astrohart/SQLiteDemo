@@ -3,6 +3,7 @@
 This lightweight WinForms app demonstrates using SQLite from C#.
 
 ![Fig01](fig01.png)
+
 **Figure 1.** Screen shot of app main window.
 
 This app is my work while following along to the YouTube video
