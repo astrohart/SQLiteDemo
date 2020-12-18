@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project xmlns="http://schemas.postsharp.org/1.0/configuration"
+         xmlns:d="clr-namespace:PostSharp.Patterns.Diagnostics;assembly:PostSharp.Patterns.Diagnostics">
+    <Multicast>
+        <d:Log AttributeTargetElements="Method" AttributeTargetTypeAttributes="Private | Protected | Internal | Public"
+               AttributeTargetMemberAttributes="Private | Protected | Internal | Public" />
+        <d:Log AttributeExclude="True" AttributeTargetElements="Method" AttributeTargetMembers="get_*" />
+    </Multicast>
+</Project>
